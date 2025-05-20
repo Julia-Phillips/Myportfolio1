@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST["message"]);
 
     // Gmail address to receive messages
-    $to = "yourgmailaddress@gmail.com"; // Replace with your Gmail address
+    $to = "phillipsjulia1234@gmail.com"; 
 
     // Compose the email content
     $body = "You have received a new message from your website contact form.\n\n";
